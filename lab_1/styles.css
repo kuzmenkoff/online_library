@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
+
+header {
+    background: #005773;
+    min-height: 175px;
+    width: 100%;
+    margin: 0;
+    padding-top: 1px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px; 
+    font-weight: bold; 
+    letter-spacing: 0.18em; 
+    margin-top: 20px
+}
+
+body {
+    font-family: 'Istok Web', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.navigation li {
+    float: left;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.navigation a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold; 
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: white;
+}
+
+.page_title {
+    font-size: 48px; 
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+}
+
+main div {
+    width: 80%;
+    max-width: 950px;
+    margin: 0;
+}
+
+div h3 {
+    font-size: 32px; 
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+}
+
+.introduction {
+    margin-top: 33px;
+}
+
+.why_justbooks {
+    margin-top: 33px;
+}
+
+.why_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 950px;
+    margin: auto;
+}
+
+.text-column {
+    font-size: 15px;
+    width: 516px;
+    height: 208;
+}
+
+.image-column {
+    display: flex;
+    align-items: center; 
+}
+
+.image-column img {
+    border-radius: 18px;
+    width: 409px;
+    height: 213px;
+}
+
+.start_adventure {
+    margin: auto;
+    margin-top: 33px;
+    max-width: 950px;
+}
+
+.start_adventure ol {
+    font-size: 24px;
+    text-align: left;
+}
+
+.contact_us {
+    padding-top: 1px;
+    margin-top: 33px;
+    background-color: #005773;
+    height: 550px;
+    
+}
+
+.contact_us form{
+    margin: auto;
+    max-width: 700px;
+}
+
+.contact_us form input {
+    margin-top: 17px; 
+    width: 685px;
+    height: 55px;
+    font-size: 24px;
+    border-color: black;
+}
+
+.contact_us form textarea {
+    margin-top: 17px; 
+    width: 685px;
+    height: 170px;
+    font-size: 24px;
+    border-color: black;
+    resize: none;
+}
+
+.contact_us form button {
+    margin-top: 17px; 
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #62A4E0;
+    border-color: black;
+}
+
+.contact_us form button:hover {
+    background-color: #8DBBE6;
+}
+
+footer {
+    padding-top: 1px;
+    background-color: #005773;
+    height: 185px;
+    margin: auto;
+    text-align: center;
+}
+
+.copyright_claim{
+    color:white;
+}
+
+.subscriptions {
+    margin: auto;
+    width: 800px;
+}
+
+.subscriptions table {
+    margin: auto;
+    text-align: center;
+}
+
+.subscriptions table tr th {
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    background-color: #005773;
+}
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 18px;
+}
+
+  
+  table tr:first-child th:last-child {
+    border-top-right-radius: 18px;
+}
+
+.subscriptions table tr td {
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    background-color: #62A4E0;
+}
