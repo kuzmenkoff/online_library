@@ -25,7 +25,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 50px;
-  }
+}
 
 .navigation {
     display: flex;
@@ -61,12 +61,6 @@ nav {
     font-weight: bold; 
     display: flex;
     justify-content: center;
-}
-
-main div {
-    width: 80%;
-    max-width: 950px;
-    margin: 0;
 }
 
 div h3 {
@@ -120,7 +114,7 @@ div h3 {
     text-align: left;
 }
 
-.contact_us {
+#contact_us {
     padding-top: 1px;
     margin-top: 33px;
     background-color: #005773;
@@ -128,12 +122,12 @@ div h3 {
     
 }
 
-.contact_us form{
+#contact_us form{
     margin: auto;
     max-width: 700px;
 }
 
-.contact_us form input {
+#contact_us form input {
     margin-top: 17px; 
     width: 685px;
     height: 55px;
@@ -141,7 +135,7 @@ div h3 {
     border-color: black;
 }
 
-.contact_us form textarea {
+#contact_us form textarea {
     margin-top: 17px; 
     width: 685px;
     height: 170px;
@@ -150,7 +144,7 @@ div h3 {
     resize: none;
 }
 
-.contact_us form button {
+#contact_us form button[type="submit"] {
     margin-top: 17px; 
     width: 150px;
     height: 50px;
@@ -159,7 +153,7 @@ div h3 {
     border-color: black;
 }
 
-.contact_us form button:hover {
+#contact_us form button:hover {
     background-color: #8DBBE6;
 }
 
@@ -171,7 +165,7 @@ footer {
     text-align: center;
 }
 
-.copyright_claim{
+h1 + h4{
     color:white;
 }
 
@@ -180,7 +174,7 @@ footer {
     width: 800px;
 }
 
-.subscriptions table {
+.subscriptions > table {
     margin: auto;
     text-align: center;
 }
