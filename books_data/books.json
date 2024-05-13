@@ -4,6 +4,43 @@
       "author": "Franz Kafka",
       "image_path": "books_data/books_images/The_Trial.jpg",
       "pdf_path": "books_data/books_pdfs/The_Trial.pdf"
+    },
+    {
+      "title": "The Iron Heel",
+      "author": "Jack London",
+      "image_path": "books_data/books_images/The_Iron_Heel.jpg",
+      "pdf_path": "books_data/books_pdfs/The_Iron_Heel.pdf"
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "image_path": "books_data/books_images/1984.jpg",
+      "pdf_path": "books_data/books_pdfs/1984.pdf"
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "image_path": "books_data/books_images/Fahrenheit_451.jpg",
+      "pdf_path": "books_data/books_pdfs/Fahrenheit_451.pdf"
+    },
+    {
+      "title": "The Odyssey",
+      "author": "Homer",
+      "image_path": "books_data/books_images/The_Odyssey.jpg",
+      "pdf_path": "books_data/books_pdfs/The_Odyssey.pdf"
+    },
+    {
+      "title": "Divine Comedy",
+      "author": "Dante Alighieri",
+      "image_path": "books_data/books_images/Divine_Comedy.jpg",
+      "pdf_path": "books_data/books_pdfs/Divine_Comedy.pdf"
+    },
+    {
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes Saavedra",
+      "image_path": "books_data/books_images/Don_Quixote_de_la_Mancha.jpg",
+      "pdf_path": "books_data/books_pdfs/Don_Quixote_de_la_Mancha.pdf"
     }
+
 
   ]
